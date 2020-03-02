@@ -1,0 +1,893 @@
+/* Start Global */
+:root {
+    --subHeader-color: #555;
+    --header-color: #333333;
+    --paragraph-color: #656565;
+    --font-color: #ffffff;
+    --hover-color: #c21500;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/**** Start Custom Framework ****/
+/*++++ Start Sections ++++*/
+.section-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*++++ End Sections ++++*/
+
+/*++++ Start Padding ++++*/
+/*---- Start Padding Top ---*/
+.pt-05 {
+    padding-top: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+/*---- End Padding Top ---*/
+
+/*---- Start Padding Right ---*/
+.pr-05 {
+    padding-right: 5px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pr-25 {
+    padding-right: 25px;
+}
+
+/*---- End Padding Right ---*/
+
+/*---- Start Padding Bottom ----*/
+
+.pb-05 {
+    padding-bottom: 5px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+/*---- End Padding Bottom ----*/
+
+/*---- Start Padding Left ----*/
+.pl-05 {
+    padding-left: 5px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+/*---- End Padding Left ----*/
+/*---- Start Padding Y ----*/
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*---- End Padding Y ----*/
+
+/*---- Start Padding X ----*/
+.px-10 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.px-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.px-20 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.px-25 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.px-30 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/*---- End Padding X ----*/
+
+/*++++ End Padding ++++*/
+
+/*++++ Start Margin ++++*/
+/*---- Start Margin Top ---*/
+.mt-05 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+/*---- End Margin Top ---*/
+
+/*---- Start Margin Right ---*/
+.mr-05 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+/*---- End Margin Right ---*/
+
+/*--- Start Margin Bottom ---*/
+.mb-05 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+/*--- End Margin Bottom ---*/
+
+/*---- Start Margin Left ---*/
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+/*---- End Margin Left ---*/
+
+/*---- Start Margin Y ----*/
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*---- End Margin Y ----*/
+
+/*---- Start Margin X ----*/
+.mx-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mx-15 {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.mx-20 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mx-25 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.mx-30 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/*---- End Margin X ----*/
+
+/*++++ End Margin ++++*/
+
+/**** End Custom Framework ****/
+
+/* End Global */
+
+/* Start Main Header */
+.main-header {
+    position: relative;
+}
+
+.main-header .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #c21500, #ffc500);
+    z-index: 2;
+    opacity: 0.7;
+}
+
+.main-header .home-caption {
+    color: var(--font-color);
+}
+
+.main-header .home-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 100%;
+}
+
+.main-header .home-caption h1 {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.main-header .home-caption p {
+    font-size: 19px;
+}
+
+.main-header .home-caption .btn-caption {
+    border: 3px solid var(--font-color);
+    color: var(--font-color);
+    padding: 10px 50px;
+}
+
+.hvr-sweep-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--font-color) !important;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-top:hover,
+.hvr-sweep-to-top:focus,
+.hvr-sweep-to-top:active {
+    color: var(--hover-color) !important;
+}
+
+.hvr-sweep-to-top:hover:before,
+.hvr-sweep-to-top:focus:before,
+.hvr-sweep-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+/* End Main Header */
+
+/* Start Navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: #757575;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--hover-color);
+}
+
+.navbar-light .navbar-brand {
+    color: #757575;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: none;
+    background: 0;
+    background-size: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--hover-color);
+    border-color: transparent;
+}
+
+.change {
+    background-color: var(--font-color);
+}
+
+
+/* End Navbar */
+
+/* Start Features */
+
+.our-feature,
+.our-team {
+    background-color: rgb(240, 240, 240);
+}
+
+.our-feature .header h2,
+.about-us .header h2,
+.our-menu .header h2,
+.our-team .header h2,
+.our-gallery .header h2 {
+    font-size: 65px;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+
+.our-feature .header p,
+.about-us .header p,
+.our-menu .header p,
+.our-team .header p,
+.our-gallery .header p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #757575;
+}
+
+.our-feature .icon {
+    margin: -35px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.our-feature .icon i {
+    background-color: #222;
+    color: var(--font-color);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: all 0.4s ease-in-out;
+}
+
+.our-feature .icon i:hover {
+    background-color: var(--hover-color);
+}
+
+.our-feature .card {
+    padding: 45px;
+}
+
+.our-feature .card-title {
+    text-transform: uppercase;
+    color: var(--subHeader-color);
+    font-size: 30px;
+}
+
+.our-feature .card-text {
+    color: var(--paragraph-color);
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+/* End Features */
+
+/* Start About Us */
+
+.about-us .story .story-text,
+.about-us .story-slider .story-text,
+.about-us .story-third .story-text {
+    color: var(--paragraph-color);
+    line-height: 1.9;
+    font-size: 19px;
+}
+
+.about-us .story-third .story-title {
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--hover-color);
+}
+
+/* End About Us */
+
+/* Start Video Section */
+
+.video {
+    background-image: url(../img/video-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.video .video-overlay,
+.contact-us .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.video .watch {
+    position: relative;
+}
+
+.video .watch i {
+    z-index: 1;
+}
+
+.video .watch h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+/* End Video Section */
+
+/* Start Menu Section */
+
+.our-menu .dish img {
+    border-radius: 5px;
+}
+
+.our-menu .dish h5 {
+    color: var(--header-color);
+    font-size: 30px;
+    display: inline;
+    line-height: 1.9;
+}
+
+.our-menu .dish span {
+    text-align: center;
+    float: right;
+    font-size: 20px;
+    background-color: var(--hover-color);
+    color: var(--font-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.our-menu .dish p {
+    color: var(--paragraph-color);
+    line-height: 1.9;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* End Menu Section */
+
+/* Start Our Team Section */
+
+.our-team .member {
+    position: relative;
+}
+
+.our-team .member .card-body {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+}
+
+.our-team .member:hover .card-body {
+    height: 100%;
+    background-color: var(--hover-color);
+    opacity: 0.9;
+    color: var(--font-color);
+    padding-top: 30%;
+}
+
+.our-team .member .card-body h5 {
+    font-size: 30px;
+}
+
+.our-team .member .card-body p {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.our-team .member .card-body .member-social i {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.our-taste h4,
+.our-service h4 {
+    font-size: 40px;
+    color: var(--header-color);
+    text-transform: uppercase;
+}
+
+.our-taste p,
+.our-service p {
+    color: var(--paragraph-color);
+    line-height: 1.9;
+    margin-top: 22px;
+}
+
+/* End Our Team Section */
+
+/* Start Our Gallery Section */
+
+.our-gallery .shuffle li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.our-gallery .shuffle li.selected {
+    color: var(--hover-color);
+}
+
+.our-gallery .photo-gallery img {
+    border-radius: 5px;
+}
+
+.our-gallery .photo-gallery h6 {
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+/* End Our Gallery Section */
+
+/* Start Contact Us Section*/
+
+.contact-us {
+    background-image: url(../img/contact-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-us form {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-us form .form-control {
+    color: #495057;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.contact-us .btn-send {
+    background-color: #fff;
+    text-transform: uppercase;
+    color: var(--hover-color);
+    padding: 10px 25px;
+    font-weight: 500;
+    font-size: 19px;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact-us .btn-send:hover {
+    background-color: var(--hover-color);
+    color: var(--font-color);
+}
+
+/* End Contact Us Section */
+
+/* Start Footer Section */
+
+.footer {
+    background-color: #141414;
+    color: #757575;
+}
+
+.footer h3 {
+    color: var(--font-color);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.footer h4 {
+    color: var(--font-color);
+    font-size: 25px;
+}
+
+.footer .about-footer,
+.footer .open-hourse {
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+.footer .contact ul li {
+    list-style: none;
+    line-height: 1.9;
+    font-size: 17px;
+}
+
+/* End Footer Section */
+/* Start Copywrite Section */
+
+.copywrite {
+    background-color: var(--font-color);
+}
+
+.copywrite p {
+    color: var(--header-color);
+    font-size: 17px;
+}
+
+/* End Copywrite Section */
+
+/* Start Media Query */
+
+@media only screen and (max-width: 600px) {
+
+    .main-header .home-caption {
+        width: 65%;
+    }
+
+    .main-header .home-caption h1 {
+        font-size: 30px;
+    }
+
+    .main-header .home-caption p {
+        font-size: 9px;
+    }
+
+    .main-header .home-caption .btn-caption {
+        padding: 3px 11px;
+    }
+
+    .our-feature .header h2,
+    .about-us .header h2,
+    .our-menu .header h2,
+    .our-team .header h2,
+    .our-gallery .header h2 {
+        font-size: 30px;
+    }
+
+    .our-feature .card {
+        padding: 25px;
+    }
+
+    .our-feature .card-title {
+        font-size: 25px;
+    }
+
+    .video .watch h3 {
+        font-size: 25px;
+    }
+
+    .our-menu .dish span {
+        float: left;
+        margin-right: 5px;
+    }
+
+    .our-gallery .shuffle li {
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 17px;
+    }
+
+    .footer h3 {
+        font-size: 25px
+    }
+
+    .footer h4 {
+        font-size: 20px;
+    }
+
+    .footer .contact ul li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .our-feature .card {
+        padding: 30px;
+    }
+}
+
+/* End Media Query */
